@@ -25,17 +25,17 @@ body {
 
 }
 .logo {
-    
+    vertical-align: middle; 
+    position: absolute;
+    width: 105.69px;
     height: 40px;
-    width: 105.69015502929688px;
-    left: 140px;
-    top: 15px;
-    border-radius: 0px;
+    
     border: green 1px solid;
 }
 
 .vector {
-    position: absolute;
+    display: inline-block;
+   
     width: 40px;
     height: 40px;
     left: 140px;
@@ -44,7 +44,7 @@ body {
 }
 
 .toxin {
-    position: absolute;
+    vertical-align: middle; 
     width: 53.19px;
     height: 12.95px;
     left: 192.5px;
