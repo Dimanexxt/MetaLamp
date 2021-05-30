@@ -1,0 +1,58 @@
+body {
+
+}
+
+.container {
+    height: 1022px;
+    width: 1534px;
+    left: -47px;
+    top: -61px;
+    border-radius: 0px;
+
+}
+
+.header {
+    background-color: #FFFFFF;
+    border: red 2px solid;
+    
+    height: 70px;
+    width: 1440px;
+    max-width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+
+}
+.logo {
+    
+    height: 40px;
+    width: 105.69015502929688px;
+    left: 140px;
+    top: 15px;
+    border-radius: 0px;
+    border: green 1px solid;
+}
+
+.vector {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 15px;
+    
+}
+
+.toxin {
+    position: absolute;
+    width: 53.19px;
+    height: 12.95px;
+    left: 192.5px;
+    top: 28.33px;
+
+}
+
+
+.content {
+    
+}
