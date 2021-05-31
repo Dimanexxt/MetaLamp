@@ -3,30 +3,35 @@ body {
 }
 
 .container {
-    height: 1022px;
-    width: 1534px;
-    left: -47px;
-    top: -61px;
-    border-radius: 0px;
+    height: 100%;
+    max-width: 1160px;
+    width: 100%;
+    margin: o auto;
+   
 
 }
 
 .header {
+    position: absolute;
     background-color: #FFFFFF;
     border: red 2px solid;
-    
+    width: 100%;
     height: 70px;
-    width: 1440px;
-    max-width: 100%;
     left: 0px;
     top: 0px;
-    border-radius: 0px;
-
-
+    z-index: 1000;
 }
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 140px;
+}
+
 .logo {
-    vertical-align: middle; 
-    position: absolute;
+    
+
     width: 105.69px;
     height: 40px;
     
@@ -35,7 +40,7 @@ body {
 
 .vector {
     display: inline-block;
-   
+
     width: 40px;
     height: 40px;
     left: 140px;
@@ -44,11 +49,31 @@ body {
 }
 
 .toxin {
-    vertical-align: middle; 
+    padding-bottom: 12px;
+    display: inline-block;
     width: 53.19px;
     height: 12.95px;
     left: 192.5px;
     top: 28.33px;
+    
+}
+
+.nav {
+
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #1F2041;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: red;
 
 }
 
