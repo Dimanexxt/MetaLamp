@@ -7,6 +7,7 @@ body {
     max-width: 1160px;
     width: 100%;
     margin: o auto;
+    
    
 
 }
@@ -19,6 +20,7 @@ body {
     height: 70px;
     left: 0px;
     top: 0px;
+    right: 0;
     z-index: 1000;
 }
 
@@ -79,5 +81,39 @@ body {
 
 
 .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../MetaLamp/img/image3.png) center no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle {
+    padding: 16px 30px;
+    z-index: 9999;
+    position: absolute;
+    width: 380px;
+    height: 374px;
+    left: 140px;
+    top: 140px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
     
 }
+
+.title__number {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.title__numb
