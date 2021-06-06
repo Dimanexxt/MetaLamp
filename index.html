@@ -4,63 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>TOXIN</title>
     
 </head>
-<body>
-    <div class="header">
-        <div class="container">
+
+    <div class="container"></div>
+        <div class="header">
+            
             <div class="header__inner">
                 <div class="logo">
                     <img class= "vector" src="../MetaLamp/img/Group.png" alt="Vector">
                     <img class= "toxin" src="../MetaLamp/img/TOXIN.png" alt="TOXIN">
                 </div>
-                <nav class="nav">
-                        <a class="nav__link" href="#">О нас</a>
-                        <a class="nav__link" href="#">Услуги</a>
-                        <a class="nav__link" href="#">Вакансии</a>
-                        <a class="nav__link" href="#">Новости</a>
-                        <a class="nav__link" href="#">Соглашения</a>
-                        <a class="nav__link" href="#">Войти</a>
-                        <a class="nav__link" href="#">Зарегистрироваться</a
-                </nav>
+                    <nav class="nav">
+                            <a class="nav__link" href="#">О нас</a>
+                            <a class="nav__link" href="#">Услуги <i class="fas fa-angle-down"></i></a>
+                            <a class="nav__link" href="#">Вакансии</a>
+                            <a class="nav__link" href="#">Новости</a>
+                            <a class="nav__link" href="#">Соглашения <i class="fas fa-angle-down"></i></a>
+                            <div class="ent">
+                                <a class="nav__link" href="#">Войти</a>
+                            </div>
+                            <div class="reg">
+                                <a class="nav__link" href="#">Зарегистрироваться</a>
+                            </div>
+                    </nav>
             </div>
 
         </div>
-    </div>    
+       
 
-    <div class="content">
-        <div class="container">
-            <div class="rectangle">
-                <div class="title__number">
-                    <p>Найдём номера под ваши пожелания</p>
-                </div>
-                <div class="btn__date">
-                    <div class="left__btn">
-                        <p>Прибытие</p>
-                        <button class="btn"> дд.мм.гггг <i class="arrow down"></i></button>
+        <div class="content">
+                <div class="rectangle">
+                    <div class="title__number">
+                        <p>Найдём номера под ваши пожелания</p>
                     </div>
-                    <div class="rights__btn">
-                        <p>Выезд</p>
-                        <button class="btn"> дд.мм.гггг</button>
+                    <div class="btn__date">
+                        <div class="left__btn">
+                            <p class="title__btn">Прибытие</p>
+                            <button class="btn"> дд.мм.гггг <i class="fas fa-angle-down"></i></button>
+                        </div>
+                        <div class="rights__btn">
+                            <p class="title__btn">Выезд</p>
+                            <button class="btn"> дд.мм.гггг <i class="fas fa-angle-down"></i></button>
+                        </div>
                     </div>
+                    <div class="btn__guest">
+                        <p class="title__btn">Гости</p>
+                        <button class="btn__guest_que"> Сколько гостей <i class="fas fa-angle-down"></i></button>
+                    </div>
+                    <div class="btn__room">
+                        <button class="room__select"> Подобрать номер <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    
                 </div>
-                <div class="btn__guest">
-                    <p>Гости</p>
-                    <button class="btn__guest_que"> Сколько гостей</button>
+                <div class="text__content">
+                    Лучшие номера для вашей работы, отдыха и просто вдохновения
                 </div>
-                <div class="btn__room">
-                    <button class="room__select"> Подобрать номер</button>
-                </div>
-                
-
-            </div>
         </div>
     </div>
-   
-    
+
+    <div class="info">
+        
+        <div class="block">
+            <div class="logo">
+                <img class= "vector" src="../MetaLamp/img/Group.png" alt="Vector">
+                <img class= "toxin" src="../MetaLamp/img/TOXIN.png" alt="TOXIN">
+            </div>
+            <div class="text__info">
+                Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+            </div>
+        </div>
+        <div class="block">
+            <div class="block__info">
+                <div class="title__info">
+                    Навигация
+                </div>
+                <a class="nav__link info_link" href="#">О нас</a>
+                <a class="nav__link info_link" href="#">Новости</a>
+                <a class="nav__link info_link" href="#">Служба поддержки</a>
+                <a class="nav__link info_link" href="#">Услуги</a>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block__info">
+                <div class="title__info">
+                    О нас
+                </div>
+                <a class="nav__link info_link" href="#">О сервисе</a>
+                <a class="nav__link info_link" href="#">Наша команда</a>
+                <a class="nav__link info_link" href="#">Вакансии</a>
+                <a class="nav__link info_link" href="#">Инвесторы</a>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block__info">
+                <div class="title__info">
+                Служба поддержки
+                </div>
+                <a class="nav__link info_link" href="#">Соглашения</a>
+                <a class="nav__link info_link" href="#">Сообщества</a>
+                <a class="nav__link info_link" href="#">Связь с нами</a>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title__info">
+                Подписка
+                </div>
+                <div class="text__info">
+                    Получайте специальные предложения и новости сервиса
+                </div>
+                <div class="email">
+                    <p class="email__input"><input type="email" placeholder="Email" list="mailList"> </p>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+        </div>
+
+    </div>
+   <div class="footer">
+       <div class="text__copyright">
+            Copyright © 2018 Toxin отель. Все права защищены.
+       </div> 
+       <div class="icons__footer">
+            <i class="fab fa-twitter coloricon"></i>
+            <i class="fab fa-facebook-square coloricon"></i>
+            <i class="fab fa-instagram coloricon"></i>
+       </div>
+   </div>
     
 
+    
+    
+    <script src="https://kit.fontawesome.com/9cf6c11056.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
