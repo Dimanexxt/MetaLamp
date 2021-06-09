@@ -1,18 +1,16 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    
-    
-    
+    font-family: 'Montserrat', 'Material Icons' sans-serif;
+    font-family: 'Quicksand', sans-serif;
     
 }
 
 p {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .container {
     max-width: 1440px;
-    height: 777px;
+    max-height: 777px;
     
     width: 100%;
     
@@ -202,14 +200,19 @@ justify-content: space-between;
     
 }
 
-.btn {
+.date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
     width: 150px;
     height: 44px;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     color: rgba(31, 32, 65, 0.75);
-    padding: 13px;
+
     
 }
 
@@ -375,6 +378,7 @@ justify-content: space-between;
 /*    FOOTER   */
 
 .footer {
+    
     border-top: 1px solid #000;
     height: 70px;
     left: 0px;
@@ -407,7 +411,235 @@ justify-content: space-between;
 
 }
 
-.coloricon {
-    color: rgba(188, 156, 255, 1);
+
+
+
+/*     Search Room     */
+
+
+.content__search {
+    margin: 20px;
+    display: flex;
+    
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    height: 1022px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 140px;
+    
+}
+
+.content__filter {
+    
+    max-width: 266px;
+    width: 100%;
+}
+
+.content__room {
+    width: 1000px;
+    width: 100%;
 
 }
+
+.title__filter {
+    position: absolute;
+    width: 197px;
+    height: 15px;
+    left: 140px;
+    top: 100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+.title__room {
+    position: absolute;
+    width: 529px;
+    height: 30px;
+    left: 465px;
+    top: 100px;
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #1F2041;
+}
+
+.room {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    
+    height: 217px;
+    left: 456px;
+    top: 105px;
+    
+    margin: 0 -1rem;
+    margin-top: 20px;
+}
+
+.room__block {
+    
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.room__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.room__item {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    text-align: center;
+    border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.room__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #1F2041;
+}
+
+.font_number {
+ 
+
+    width: 59px;
+    height: 24px;
+   font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 17px;
+    
+    
+    color: #1F2041;
+    
+
+    
+}
+
+.room__cat {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+  
+    text-transform: uppercase;
+    
+    color: #BC9CFF;
+
+    margin-left: -8px;
+    padding-top: 3px;
+}
+
+.room__price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: rgba(31, 32, 65, 0.5);
+    text-align: right;
+    height: 20px;
+    width: 100px;
+
+
+}
+
+.room a {
+  
+    text-decoration: none;
+    
+}
+
+
+.icon__star {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.colorstar  {
+    color: rgba(188, 156, 255, 1);
+}
+
+.star {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    width: 230px;
+    
+}
+
+.star_text {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.reviews__text {
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: right;
+
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.bold {
+    font-weight: bold; 
+    padding-right: 2px;
+    font-size: 14px;
+    
+}
+
